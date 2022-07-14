@@ -1,56 +1,189 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<!-- "\f073" -->
+  <!-- "\f073" -->
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Teste</title>
-    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/style.css" />
     <!-- Bootstrap -->
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
     <!-- Ionicons -->
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-</head>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
 
-<body>
+  <body>
     <div class="content">
-        <div class="parent">
-            <div class="img-mobile">
-                <img src="./src/img/FotoNorton-Mobile.png.webp" alt="">
-            </div>
-            <div class="text-container">
-                <img src="./src/img/LOGO-SEMANA-DAS-MILHAS.png.webp" alt="">
-                <h1>O SEU CARTÃO DE CRÉDITO É
-                    UM GERADOR DE RIQUEZAS</h1>
-                <p>Descubra em 3 episódios gratuitos como você pode utilizar o seu cartão de crédito pra gerar uma renda
-                    extra garantida
-                    sem precisar gastar mais pra isso.</p>
-                <div class="date-event">
-                    <div class="date-icon">
-                     <span><ion-icon name="calendar-outline"></ion-icon></span>  
-                    </div>
-                    <div class="newsletter">
-                    <div class="date">
-                        <span>DO DIA 02 AO 07 DE AGOSTO</span>
-                        <p>Online e gratuito</p>
-                    </div>
-                    <div class="form-event">
-                        <form action="">
-                            <label for="">E-mail*</label>
-                            <input type="text">
-                            <button class="btn">aperte aqui para se inscrever gratuitamente</button>
-                        </form>
-                    </div>
-                    </div>
-                </div>
-            </div>
+      <div class="parent">
+        <div class="img-mobile">
+          <img src="./src/img/FotoNorton-Mobile.png.webp" alt="" />
         </div>
+        <div class="text-container">
+          <img src="./src/img/LOGO-SEMANA-DAS-MILHAS.png.webp" alt="" />
+          <h1>O SEU CARTÃO DE CRÉDITO É UM GERADOR DE RIQUEZAS</h1>
+          <p>
+            Descubra em 3 episódios gratuitos como você pode utilizar o seu
+            cartão de crédito pra gerar uma renda extra garantida sem precisar
+            gastar mais pra isso.
+          </p>
+          <div class="date-event">
+            <div class="date-icon">
+              <span><ion-icon name="calendar-outline"></ion-icon></span>
+            </div>
+            <div class="newsletter">
+              <div class="date">
+                <span>DO DIA 02 AO 07 DE AGOSTO</span>
+                <p>Online e gratuito</p>
+              </div>
+              <div class="form-event">
+                <form action="">
+                  <label for="">E-mail*</label>
+                  <input type="text" placeholder="Digite seu e-mail" />
+                  <button class="btn">
+                    aperte aqui para se inscrever gratuitamente
+                  </button>
+                  <p>
+                    Ao realizar a inscrição estarei concordando com os
+                    <a href="">termos de uso e condições.</a>
+                  </p>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    </div>
-</body>
 
+    <div class="content-card">
+      <div class="col-md-12">
+        <h1 class="card-title">Durante os 3 Episódios você vai</h1>
+      </div>
+      <div class="cards">
+        <div class="card col-md-3">
+          <div class="card-body">
+            <p class="card-text">
+              DESCOBRIR COMO TER UM “SALÁRIO EXTRA” GARANTIDO TODOS OS MESES
+              CAINDO NA SUA CONTA COM O SEU CARTÃO DE CRÉDITO
+            </p>
+          </div>
+        </div>
+        <div class="card col-md-3">
+          <div class="card-body">
+            <p class="card-text">
+              DESCOBRIR COMO VIAJAR DE EXECUTIVA PAGANDO MENOS QUE NA ECONÔMICA
+              OU ATÉ DE GRAÇA
+            </p>
+          </div>
+        </div>
+        <div class="card col-md-3">
+          <div class="card-body">
+            <p class="card-text">
+              DESCOBRIR COMO CONSEGUIR IPHONES E OUTROS PRODUTOS COM ATÉ 40% DE
+              DESCONTO
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="button-card">
+        <button class="btn">
+          aperte aqui para se inscrever gratuitamente!
+        </button>
+      </div>
+    </div>
+
+    <div class="content-week">
+      <div class="week-info">
+        <h2 class="week-title">
+          Só que a Nova Semana das Milhas não é para todo mundo
+        </h2>
+        <h2 class="week-sub-title">Ela é somente para quem:</h2>
+        <p>
+          Cansou de ser enganado pela confusão gerada pelos bancos e cias aéreas
+          que não querem que você tenha uma nova renda extra com o seu cartão de
+          crédito;
+        </p>
+        <p>
+          Busca ter uma vida financeira melhor, mais tranquila, sem se preocupar
+          com a conta que virá no próximo mês e com o preço do cardápio. Procura
+          uma forma de fazer o dinheiro sobrar.
+        </p>
+        <h3 class="week-extra">
+          QUER DESCOBRIR COMO PODE UTILIZAR O SEU CARTÃO DE CRÉDITO PARA
+          <span class="negrito">GERAR UMA RENDA GARANTIDA</span> TODOS OS MESES?
+        </h3>
+        <h3 class="week-jobs">SEM PRECISAR TRABALHAR PRA ISSO</h3>
+        <button>QUERO GERAR UMA RENDA EXTRA!</button>
+      </div>
+    </div>
+
+    <div class="content-coach">
+      <div>
+        <h2>conheça o seu mentor</h2>
+      </div>
+      <div class="coach-division">
+        <div class="coach-img">
+          <img src="./src/img/coach.jpg" alt="" />
+        </div>
+        <div class="coach-text">
+          <h3 class="coach-title-one">NORTON</h3>
+          <h3 class="coach-title-two">REVENO</h3>
+          <p class="coach-p">
+            <span>
+              Norton Reveno pediu demissão de um dos melhores empregos do Brasil
+              – como engenheiro concursado da Petrobras – pra ensinar as pessoas
+              a terem uma renda extra garantida com seu cartão de crédito.
+            </span>
+            <span>
+              Ele já negociou mais de 53 milhões de milhas, o que é equivalente
+              a quase dois milhões de reais e já botou mais de 10 milhões de
+              reais no bolso dos seus +9.000 alunos.
+            </span>
+            <span>
+              Hoje ele é considerado o Maior Especialista em Milhas e Cartões de
+              Crédito do Brasil e ensina mais de 500 mil pessoas a ter uma nova
+              fonte de renda, do absoluto zero e mesmo que você ainda nem tenha
+              cartão de crédito.
+            </span>
+            <span>
+              Sua missão é ensinar as pessoas como gerarem uma nova fonte de
+              renda, mesmo sem ter experiência e nenhum conhecimento prévio em
+              um mercado bilionário fora do radar da maioria das pessoas.
+            </span>
+          </p>
+        </div>
+      </div>
+      <div class="coach-button">
+        <button>quero gerar uma renda extra!</button>
+      </div>
+    </div>
+  </body>
 </html>
